@@ -1,0 +1,331 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+label,
+input {
+  display: inline-block;
+}
+
+input,
+select {
+  height: 25px;
+}
+
+h2 {
+  margin: 10px;
+}
+
+.required:after {
+  content: " *";
+  color: rgb(230, 5, 5);
+}
+
+#worequest {
+  font-size: 15px;
+  width: 600px;
+  margin-left: 50px;
+  padding: 7px 4px;
+}
+
+.underwo {
+  color: gray;
+  font-size: 12px;
+}
+
+.inlinebwo {
+  display: inline-block;
+}
+
+.titlewo {
+  width: 140px;
+}
+
+#worequest input[type="radio"] {
+  position: relative;
+  bottom: 4px;
+}
+
+.buttonwo {
+  padding: 4px 15px;
+  margin: 6px;
+  background: black;
+  color: white;
+  border-radius: 10%;
+  outline: none;
+}
+
+#itst {
+  font-size: 15px;
+  width: 380px;
+  margin-left: 50px;
+  padding: 7px 10px;
+}
+
+.underitst {
+  color: gray;
+  font-size: 12px;
+}
+
+.inlineitst {
+  display: inline-block;
+}
+
+.buttonitst {
+  background: rgb(27, 162, 27);
+  color: white;
+  padding: 4px 30px;
+  border-radius: 10%;
+  border: none;
+  outline: none;
+}
+
+#erf {
+  font-size: 15px;
+  width: 700px;
+  margin-left: 50px;
+  padding: 7px 10px;
+}
+
+#erf input {
+  border-radius: 5%;
+  outline: none;
+  border: 1px solid rgb(179, 175, 175);
+}
+
+.titleerf {
+  margin-bottom: 3px;
+}
+
+.undererf {
+  color: gray;
+  font-size: 12px;
+}
+
+.inlineerf {
+  display: inline-block;
+}
+
+#saveerf {
+  padding: 2px 20px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+#erf #clearerf,
+#erf #aclearerf {
+  border: none;
+  border-bottom: 1px solid black;
+  background: none;
+  outline: none;
+  padding-bottom: 0px;
+  height: 18px;
+  position: relative;
+  left: 220px;
+}
+
+#erf #submiterf {
+  padding: 2px 20px;
+  position: relative;
+  left: 100px;
+  background: rgb(28, 24, 24);
+  color: white;
+}
+
+#crr {
+  font-size: 15px;
+  width: 700px;
+  margin-left: 50px;
+  padding: 7px 10px;
+}
+
+.undercrr {
+  color: gray;
+  font-size: 12px;
+}
+
+.inlinecrr {
+  display: inline-block;
+}
+
+.bigtitlecrr {
+  padding: 5px;
+  padding-left: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  border-top: 1px solid rgb(214, 206, 206);
+  border-bottom: 1px solid rgb(214, 206, 206);
+}
+
+.titlecrr {
+  width: 30%;
+  margin-right: 3px;
+}
+
+#crr input[type="radio"],
+#crr input[type="checkbox"] {
+  position: relative;
+  bottom: 4px;
+}
+
+#buttoncrr {
+  background: linear-gradient(45deg, rgb(47, 111, 208), rgb(23, 65, 128));
+  padding: 2px 20px;
+  border: none;
+  outline: none;
+  border-radius: 10%;
+  color: white;
+}
+
+#ef {
+  font-size: 15px;
+  width: 700px;
+  margin-left: 50px;
+  padding: 7px 10px;
+  color: rgb(16, 70, 150);
+}
+
+.inlinebef {
+  display: inline-block;
+}
+
+.underef {
+  font-size: 13px;
+  color: rgb(101, 136, 187);
+  text-align: center;
+}
+
+.radiowef label {
+  position: relative;
+  right: 33px;
+}
+
+.radiowef10 label {
+  position: relative;
+  right: 36px;
+}
+
+#firsttitleef {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(201, 195, 195);
+  padding: 5px;
+  padding-left: 0px;
+}
+
+#secondtitleef {
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(201, 195, 195);
+  padding: 5px;
+  padding-left: 0px;
+}
+
+#ef input[type="radio"] {
+  position: relative;
+  bottom: 4px;
+  width: 50px;
+}
+
+#ef table {
+  border-spacing: 0px;
+}
+
+#ef table td {
+  width: 100px;
+  height: 20px;
+  border: 1px solid rgb(167, 166, 166);
+  text-align: center;
+}
+
+#ef table td input[type="radio"] {
+  width: 20px;
+  position: relative;
+  top: 1px;
+}
+
+#ef table .coloref {
+  background: rgb(194, 207, 232);
+}
+
+#po {
+  font-size: 15px;
+  width: 800px;
+  margin-left: 50px;
+  position: relative;
+  padding: 4px 10px;
+}
+
+#titlepo {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 4px;
+  border-bottom: 1px solid rgb(214, 204, 204);
+}
+
+.inlinepo {
+  display: inline-block;
+}
+
+#po input[type="checkbox"] {
+  width: 20px;
+  margin: 0px 10px;
+}
+
+#po img {
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+}
+
+.ingrepo {
+  width: 250px;
+}
+
+.itempo {
+  position: relative;
+  margin: 6px 0px;
+}
+
+.pricepo {
+  position: absolute;
+  right: 5px;
+}
+
+.pricepo div p {
+  width: 47px;
+  position: absolute;
+  right: 0px;
+}
+
+.buttonpo {
+  width: 260px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 10%;
+}
+
+#checkoutpo {
+  background-color: rgb(237, 152, 87);
+}
+
+#dbcardpo {
+  background-color: rgba(0, 0, 0, 0.302);
+}
+
+.despo {
+  margin-bottom: 3px;
+}
+
+.qspo {
+  font-size: 12px;
+  color: rgb(123, 113, 113);
+  margin: 0px 4px;
+  position: relative;
+  top: 3px;
+}

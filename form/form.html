@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./form.css" />
+    <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.css" />
+  </head>
+  <body>
+    <h2>Work Order Request Form</h2>
+    <form action="">
+      <fieldset id="worequest">
+        <div>
+          <label for="firstname" class="required titlewo"> Full Name:</label>
+          <div class="inlinebwo">
+            <input style="width: 90px" type="text" name="firstname" id="firstname" required="required" />
+            <br />
+            <label for="firstname" class="underwo">First Name</label>
+          </div>
+          <div class="inlinebwo">
+            <input style="width: 110px" type="text" name="lastname" id="lastname" required="required" />
+            <br />
+            <label for="lastname" class="underwo">Last Name</label>
+          </div>
+        </div>
+        <br />
+        <div>
+          <label for="company" class="required titlewo"> Company: </label>
+          <input style="width: 220px" type="text" name="company" id="company" required="required" />
+        </div>
+        <br />
+        <br />
+        <div>
+          <p class="inlinebwo titlewo">Address:</p>
+          <div class="inlinebwo">
+            <div>
+              <input style="width: 100%" type="text" name="streetaddress" id="streetaddress" /> <br />
+              <label for="streetaddress" class="underwo"> Street Address</label>
+            </div>
+            <div>
+              <input style="width: 100%" type="text" name="streetaddressline2" id="streetaddressline2" />
+              <br />
+              <label for="streetaddressline2" class="underwo"> Street Address Line 2</label>
+            </div>
+            <div class="inlinebwo">
+              <input type="text" name="city" id="city" />
+              <br />
+              <label for="city" class="underwo">City</label>
+            </div>
+            <div class="inlinebwo">
+              <input type="text" name="state/province" id="state/province" />
+              <br />
+              <label for="state/province" class="underwo">State / Province</label>
+            </div>
+            <br />
+            <div class="inlinebwo">
+              <input type="text" name="postal/zipcode" id="postal/zipcode" />
+              <br />
+              <label for="postal/zipcode" class="underwo">Postal / Zip Code</label>
+            </div>
+            <div class="inlinebwo">
+              <select style="width: 149px" name="country" id="country">
+                <option value="select">Please Select</option>
+                <option value="french">French</option>
+                <option value="german">German</option>
+                <option value="taiwan">Taiwan</option>
+                <option value="usa">USA</option>
+                <option value="korea">Korea</option>
+              </select>
+              <br />
+              <label for="country" class="underwo">Country</label>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div>
+          <label for="areacode" class="required titlewo"> Phone number: </label>
+          <div class="inlinebwo">
+            <input style="width: 70px" type="text" name="arecode" id="areacode" required="required" /> -
+            <br />
+            <label for="areocode" class="underwo">Area Code</label>
+          </div>
+          <div class="inlinebwo">
+            <input style="width: 100px" type="text" name="phone-number" id="phone-number" required="required" />
+            <br />
+            <label for="phone-number" class="underwo">Phone Number</label>
+          </div>
+        </div>
+        <br />
+        <label for="email" class="required titlewo">E-mail:</label>
+        <input style="width: 220px" type="email" name="email" id="email" required="required" placeholder="ex: myname@example.com" />
+        <br />
+        <br />
+        <div style="width: 170px" class="inlinebwo titlewo">
+          <p>Problem Category:</p>
+          <div>
+            <input type="radio" name="problem-category" id="computer" value="computer" />
+            <label for="computer">Computer </label>
+            <br />
+            <input type="radio" name="problem-category" id="network" value="network" />
+            <label for="network">Network</label>
+            <br />
+            <input type="radio" name="problem-category" id="other" value="other" />
+            <label for="other">Other</label>
+          </div>
+        </div>
+        <div class="inlinebwo">
+          <label for="problem">Problem</label>
+          <br />
+          <textarea name="" id="problem" cols="40" rows="6"></textarea>
+          <br />
+        </div>
+        <br />
+        <br />
+        <div>
+          <label for="commentq" class="titlewo"> Comment and Questions:</label>
+          <textarea name="" id="commentq" cols="30" rows="7"></textarea>
+        </div>
+        <br />
+        <div style="text-align: center">
+          <input class="buttonwo" type="submit" name="submit" value="Submit" />
+          <input class="buttonwo" type="submit" name="print" value="Print Form" />
+        </div>
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <br />
+    <h2>IT Service Ticket Form</h2>
+    <form action="">
+      <fieldset id="itst">
+        <div>
+          <div style="width: 50%" class="inlineitst">
+            <label for="firstnameitst">Name</label>
+            <br />
+            <div style="width: 85px" class="inlineitst">
+              <input style="width: 100%" type="text" name="firstnameitst" id="firstnameitst" />
+              <br />
+              <label for="firstnameitst" class="underitst">First Name</label>
+            </div>
+            <div style="width: 85px" class="inlineitst">
+              <input style="width: 100%" type="text" name="lastnameitst" id="lastnameitst" />
+              <br />
+              <label for="lastnameitst" class="underitst">Last Name</label>
+            </div>
+          </div>
+          <div class="inlineitst">
+            <label for="emailitst">E-mail</label>
+            <br />
+            <input type="email" name="emailitst" id="emailitst" />
+            <br />
+            <label for="emailitst" class="underitst">example@example.com</label>
+          </div>
+        </div>
+        <br />
+        <div>
+          <div style="width: 50%" class="inlineitst">
+            <label for="departmentitst">Department</label>
+            <br />
+            <input style="width: 173px" type="text" name="departmentitst" id="departmentitst" />
+          </div>
+          <div class="inlineitst">
+            <label for="computeriditst">Computer ID</label>
+            <br />
+            <input type="text" name="computeriditst" id="computeriditst" />
+          </div>
+        </div>
+        <br />
+        <div>
+          <label for="uploaditst">Upload Screenshot</label>
+          <br />
+          <div style="text-align: center">
+            <input type="file" name="uploaditst" id="uploaditst" />
+          </div>
+        </div>
+        <br />
+        <div>
+          <label for="describeitst">Describe the Problem</label>
+          <br />
+          <textarea name="describeitst" id="describeitst" cols="30" rows="10" placeholder="Type here..."></textarea>
+        </div>
+        <br />
+        <div style="text-align: center">
+          <input class="buttonitst" type="submit" name="submititst" value="submit" />
+        </div>
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <br />
+    <h2>Equipment Release Form</h2>
+    <form action="">
+      <fieldset id="erf">
+        <div style="width: 50%" class="inlineerf">
+          <label class="titleerf" for="firstnameerf">Borrower Name</label>
+          <br />
+          <div class="inlineerf">
+            <input style="width: 170px" type="text" name="firstnameerf" id="firstnameerf" />
+            <br />
+            <label for="firstnameerf" class="undererf">First Name</label>
+          </div>
+          <div class="inlineerf">
+            <input style="width: 80px" type="text" name="lastnameerf" id="lastnameerf" />
+            <br />
+            <label for="lastname" class="undererf">Last Name</label>
+          </div>
+        </div>
+        <div class="inlineerf">
+          <label class="titleerf" for="departmenterf">Department</label>
+          <br />
+          <input type="text" name="departmenterf" id="departmenterf" />
+        </div>
+        <br />
+        <br />
+        <div style="width: 50%" class="inlineerf">
+          <label class="titleerf" for="datererf">Date of Removal</label>
+          <br />
+          <input type="date" name="datererf" id="datererf" />
+          <br />
+          <label for="datererf" class="undererf">Date</label>
+        </div>
+        <div class="inlineerf">
+          <label class="titleerf" for="eatererf">Expected Date of Return</label>
+          <br />
+          <input type="date" name="eatererf" id="eatererf" />
+          <br />
+          <label for="datererf" class="undererf">Date</label>
+        </div>
+        <br />
+        <br />
+        <div>
+          <label class="titleerf" for="equipdeserf">Equipment Information</label>
+          <br />
+          <input style="width: 200px" type="text" name="equipdeserf" id="equipdeserf" placeholder="Equipment Description" />
+          <input style="width: 100px" type="text" name="serialerf" id="serialerf" placeholder="Serial No" />
+        </div>
+        <input id="saveerf" type="submit" name="saveerf" value="SAVE" />
+        <br />
+        <br />
+        <div>
+          <label class="titleerf" for="nbeerf">Number of Borrowed Equipment</label>
+          <br />
+          <input type="text" name="nbeerf" id="nbeerf" placeholder="0" />
+        </div>
+        <br />
+        <div>
+          <label class="titleerf" for="reasonerf">Reason for Use</label>
+          <br />
+          <textarea name="reasonerf" id="reasonerf" cols="40" rows="7"></textarea>
+        </div>
+        <br />
+        <br />
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, culpa! Maxime commodi fugiat consequuntur harum explicabo libero similique vel recusandae.</p>
+        <br />
+        <br />
+        <div>
+          <label class="titleerf" for="signatureerf">Borrower Signature</label>
+          <br />
+          <textarea style="resize: none" name="signatureerf" id="signatureerf" cols="30" rows="10"></textarea>
+          <br />
+          <input type="submit" id="clearerf" name="clearerf" value="Clear" />
+        </div>
+        <br />
+        <div>
+          <label class="titleerf" for="aderf">Additional Details/Comments</label>
+          <br />
+          <textarea name="aderf" id="aderf" cols="60" rows="7"></textarea>
+        </div>
+        <br />
+        <div>
+          <label class="titleerf" for="afirstnameerf">Authorized Name</label>
+          <br />
+          <div class="inlineerf">
+            <input style="width: 170px" type="text" name="afirstnameerf" id="afirstnameerf" />
+            <br />
+            <label for="afirstnameerf" class="undererf">First Name</label>
+          </div>
+          <div class="inlineerf">
+            <input style="width: 80px" type="text" name="alastnameerf" id="alastnameerf" />
+            <br />
+            <label for="alastnameerf" class="undererf">Last Name</label>
+          </div>
+        </div>
+        <div>
+          <label class="titleerf" for="asignatureerf">Authorized Signature</label>
+          <br />
+          <textarea style="resize: none" name="asignature" id="asignature" cols="30" rows="10"></textarea>
+          <br />
+          <input id="aclearerf" type="submit" name="aclearerf" value="Clear" />
+        </div>
+        <input type="submit" id="submiterf" name="submiterf" value="Submit" />
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <br />
+    <h2>Car Rental Request Form</h2>
+    <form action="">
+      <fieldset id="crr">
+        <p class="bigtitlecrr">CAR RENTAL REQUEST</p>
+        <br />
+        <div>
+          <label class="required" for="datecrr">Start:</label>
+          <br />
+          <div class="inlinecrr">
+            <input type="date" name="datecrr" id="datecrr" />
+            <br />
+            <label for="datecrr" class="undercrr">DD/MM/YYYY</label>
+          </div>
+          <div class="inlinecrr">
+            <select name="hourcrr" id="hourcrr">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            <br />
+            <label for="hourcrr" class="undercrr">Hour</label>
+          </div>
+          <div class="inlinecrr">
+            <span>:</span>
+            <select name="minutescrr" id="minutescrr">
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="30">30</option>
+              <option value="40">40</option>
+              <option value="50">50</option>
+              <option value="60">60</option>
+            </select>
+            <br />
+            <label for="minutescrr" class="undercrr">Minutes</label>
+          </div>
+          <div class="inlinecrr">
+            <select name="ampmcrr" id="ampmcrr">
+              <option value="AM">AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </div>
+        </div>
+        <br />
+        <div>
+          <label class="required" for="datecrrend">End:</label>
+          <br />
+          <div class="inlinecrr">
+            <input type="date" name="datecrrend" id="datecrrend" />
+            <br />
+            <label for="datecrrend" class="undercrr">DD/MM/YYYY</label>
+          </div>
+          <div class="inlinecrr">
+            <select name="hourcrrend" id="hourcrrend">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            <br />
+            <label for="hourcrr" class="undercrr">Hour</label>
+          </div>
+          <div class="inlinecrr">
+            <span>:</span>
+            <select name="minutescrrend" id="minutescrrend">
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="30">30</option>
+              <option value="40">40</option>
+              <option value="50">50</option>
+              <option value="60">60</option>
+            </select>
+            <br />
+            <label for="minutescrrend" class="undercrr">Minutes</label>
+          </div>
+          <div class="inlinecrr">
+            <select name="ampmcrrend" id="ampmcrrend">
+              <option value="AM">AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </div>
+        </div>
+        <br />
+        <div>
+          <p class="inlinecrr required titlecrr">Type of Car</p>
+          <div class="inlinecrr">
+            <input type="checkbox" value="hmacrr" name="hmacrr" id="hmacrr" />
+            <label for="hmacrr"> Hyun Model A</label>
+            <br />
+            <input type="checkbox" value="tmbcrr" name="tmbcrr" id="tmbcrr" />
+            <label for="tmbcrr">Tesla Model B</label>
+          </div>
+        </div>
+        <p class="bigtitlecrr">PICK UP FROM THE AIRPORT</p>
+        <br />
+        <div>
+          <p class="inlinecrr titlecrr">Pick-Up</p>
+          <div class="inlinecrr">
+            <input type="radio" id="pickupyescrr" name="pickupcrr" value="yes" />
+            <label for="pickupyescrr">Yes</label>
+            <br />
+            <input type="radio" id="pickupnocrr" name="pickupcrr" value="no" />
+            <label for="pickupnocrr">No</label>
+          </div>
+        </div>
+        <br />
+        <div>
+          <label class="titlecrr" for="pickupyesinfocrr">If Yes: Flight and Time of Arrival </label>
+          <input type="text" id="pickupyesinfocrr" />
+        </div>
+        <br />
+        <div>
+          <label class="titlecrr" for="pickupnoinfocrr">If No: Time for Pick-up from Our Office </label>
+          <input type="text" id="pickupnoinfocrr" />
+        </div>
+        <br />
+        <p class="bigtitlecrr">CAR DELIEVRY</p>
+        <br />
+        <div>
+          <p class="inlinecrr titlecrr">Car Delievery</p>
+          <div class="inlinecrr">
+            <input type="radio" id="cardeyescrr" name="cardecrr" value="yes" />
+            <label for="cardeyescrr">Yes</label>
+            <br />
+            <input type="radio" id="cardenocrr" name="cardecrr" value="no" />
+            <label for="cardenocrr">No</label>
+          </div>
+        </div>
+        <br />
+        <div>
+          <label class="titlecrr" for="cardeinforcrr">If Yes: Time and Place</label>
+          <input type="text" id="cardeinfocrr" />
+        </div>
+        <br />
+        <p class="bigtitlecrr">BABYSEAT</p>
+        <br />
+        <div>
+          <p class="inlinecrr titlecrr">Baby Seat</p>
+          <div class="inlinecrr">
+            <input type="radio" id="bbsyescrr" name="bbscrr" value="yes" />
+            <label for="bbsyescrr">Yes</label>
+            <br />
+            <input type="radio" id="bbsnocrr" name="bbscrr" value="no" />
+            <label for="bbsnocrr">No</label>
+          </div>
+        </div>
+        <br />
+        <p class="bigtitlecrr">BOOSTER</p>
+        <br />
+        <div>
+          <p class="inlinecrr titlecrr">Booster</p>
+          <div class="inlinecrr">
+            <input type="radio" id="booyescrr" name="boocrr" value="yes" />
+            <label for="booyescrr">Yes</label>
+            <br />
+            <input type="radio" id="boonocrr" name="boocrr" value="no" />
+            <label for="boonocrr">No</label>
+          </div>
+        </div>
+        <br />
+        <p class="bigtitlecrr">GPS</p>
+        <br />
+        <div>
+          <p class="inlinecrr titlecrr">GPS</p>
+          <div class="inlinecrr">
+            <input type="radio" id="gpsyescrr" name="gpscrr" value="yes" />
+            <label for="gpsyescrr">Yes</label>
+            <br />
+            <input type="radio" id="gpsnocrr" name="gpscrr" value="no" />
+            <label for="gpsnocrr">No</label>
+          </div>
+        </div>
+        <br />
+        <p class="bigtitlecrr">COMMENTS</p>
+        <br />
+        <div>
+          <label for="commentcrr">Comments</label>
+          <br />
+          <textarea name="commentcrr" id="commentcrr" cols="30" rows="10"></textarea>
+        </div>
+        <br />
+        <div>
+          <label class="required titlecrr" for="firstnamecrr">Full Name</label>
+          <div class="inlinecrr">
+            <input style="width: 120px" type="text" id="firstnamecrr" />
+            <br />
+            <label for="firstnamecrr" class="undercrr">First Name</label>
+          </div>
+          <div class="inlinecrr">
+            <input style="width: 90px" type="text" id="lastnamecrr" />
+            <br />
+            <label for="lastnamecrr" class="undercrr">Last Name</label>
+          </div>
+        </div>
+        <br />
+        <div>
+          <label class="required titlecrr" for="emailcrr">E-mail</label>
+          <input style="width: 200px" type="email" id="emailcrr" placeholder="ex: myname@example.com" />
+        </div>
+        <br />
+        <div>
+          <label class="titlecrr" for="areacodecrr">Phone</label>
+          <div class="inlinecrr">
+            <input type="text" id="areacodecrr" /> -
+            <br />
+            <label for="areacodecrr" class="undercrr">Area Code</label>
+          </div>
+          <div class="inlinecrr">
+            <input type="text" id="phonenumcrr" />
+            <br />
+            <label for="phonenumcrr" class="undercrr">Phone Number</label>
+          </div>
+        </div>
+        <br />
+        <div style="text-align: center">
+          <input id="buttoncrr" type="submit" id="submitcrr" value="Submit" />
+        </div>
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <br />
+    <h2>Event Feedback Form</h2>
+    <form action="">
+      <fieldset id="ef">
+        <p id="firsttitleef">Event Feedback</p>
+        <br />
+        <div>
+          <label class="required" for="whicheventef">Which event did you attend?</label>
+          <br />
+          <br />
+          <select style="width: 200px" name="whicheventef" id="whicheventef">
+            <option value="pleaseselect">Please Select</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <p class="required">Overall, how was the event?</p>
+          <br />
+          <div>
+            <div class="inlinebef radiowef">
+              <input type="radio" id="entef1" name="entef" value="1" />
+              <label for="entef1">1</label>
+              <p class="underef">Boring</p>
+            </div>
+            <div class="inlinebef radiowef">
+              <input type="radio" id="entef2" name="entef" value="2" />
+              <label for="entef2">2</label>
+            </div>
+            <div class="inlinebef radiowef">
+              <input type="radio" id="entef3" name="entef" value="3" />
+              <label for="entef3">3</label>
+            </div>
+            <div class="inlinebef radiowef">
+              <input type="radio" id="entef4" name="entef" value="4" />
+              <label for="entef4">4</label>
+            </div>
+            <div class="inlinebef radiowef">
+              <input type="radio" id="entef5" name="entef" value="5" />
+              <label for="entef5">5</label>
+            </div>
+            <div class="inlinebef radiowef">
+              <input type="radio" id="entef6" name="entef" value="6" />
+              <label for="entef6">6</label>
+            </div>
+            <div class="inlinebef radiowef">
+              <input type="radio" id="entef7" name="entef" value="7" />
+              <label for="entef7">7</label>
+            </div>
+            <div class="inlinebef radiowef">
+              <input type="radio" id="entef8" name="entef" value="8" />
+              <label for="entef8">8</label>
+            </div>
+            <div class="inlinebef radiowef">
+              <input type="radio" id="entef9" name="entef" value="9" />
+              <label for="entef9">9</label>
+            </div>
+            <div class="inlinebef radiowef10">
+              <input type="radio" id="entef10" name="entef" value="10" />
+              <label for="entef10">10</label>
+              <p class="underef">Fantastic</p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div>
+          <p class="required">Do you think the event is valuable?</p>
+          <br />
+          <div class="inlinebef radiowef">
+            <input type="radio" id="valueef1" name="valueef" value="1" />
+            <label for="valueef1">1</label>
+            <p class="underef">Not at all</p>
+          </div>
+          <div class="inlinebef radiowef">
+            <input type="radio" id="valueef2" name="valueef" value="2" />
+            <label for="valueef2">2</label>
+          </div>
+          <div class="inlinebef radiowef">
+            <input type="radio" id="valueef3" name="valueef" value="3" />
+            <label for="valueef3">3</label>
+          </div>
+          <div class="inlinebef radiowef">
+            <input type="radio" id="valueef4" name="valueef" value="4" />
+            <label for="valueef4">4</label>
+          </div>
+          <div class="inlinebef radiowef">
+            <input type="radio" id="valueef5" name="valueef" value="5" />
+            <label for="valueef5">5</label>
+          </div>
+          <div class="inlinebef radiowef">
+            <input type="radio" id="valueef6" name="valueef" value="6" />
+            <label for="valueef6">6</label>
+          </div>
+          <div class="inlinebef radiowef">
+            <input type="radio" id="valueef7" name="valueef" value="7" />
+            <label for="valueef7">7</label>
+          </div>
+          <div class="inlinebef radiowef">
+            <input type="radio" id="valueef8" name="valueef" value="8" />
+            <label for="valueef8">8</label>
+          </div>
+          <div class="inlinebef radiowef">
+            <input type="radio" id="valueef9" name="valueef" value="9" />
+            <label for="valueef9">9</label>
+          </div>
+          <div class="inlinebef radiowef10">
+            <input type="radio" id="valueef10" name="valueef" value="10" />
+            <label for="valueef10">10</label>
+            <p class="underef">Definitely</p>
+          </div>
+        </div>
+        <br />
+        <div>
+          <p class="required">What was the best part?</p>
+          <br />
+          <input type="radio" id="bpef1" name="bpef" value="1" />
+          <label for="bpef1">Option 1</label>
+          <br />
+          <br />
+          <input type="radio" id="bpef2" name="bpef" value="2" />
+          <label for="bpef2">Option 2</label>
+          <br />
+          <br />
+          <input type="radio" id="bpef3" name="bpef" value="3" />
+          <label for="bpef3">Option 3</label>
+          <br />
+          <br />
+          <input type="radio" id="bpef4" name="bpef" value="4" />
+          <label for="bpef4">Option 4</label>
+          <br />
+          <br />
+          <input type="radio" id="bpef0" name="bpef" value="0" />
+          <label for="bpef0">Other</label>
+          <br />
+          <br />
+        </div>
+        <br />
+        <p id="secondtitleef">Evaluate the Presenters</p>
+        <br />
+        <div>
+          <p>Presenter 1</p>
+          <br />
+          <table>
+            <tr class="coloref">
+              <td style="border: none; background: white"></td>
+              <td>Not at all</td>
+              <td>Not really</td>
+              <td>Somewhat</td>
+              <td>Mostly</td>
+              <td>Definitely</td>
+            </tr>
+            <tr>
+              <td class="coloref">Interesting</td>
+              <td><input type="radio" id="p1ef11" name="p1ef1" value="1" /></td>
+              <td><input type="radio" id="p1ef12" name="p1ef1" value="2" /></td>
+              <td><input type="radio" id="p1ef13" name="p1ef1" value="3" /></td>
+              <td><input type="radio" id="p1ef14" name="p1ef1" value="4" /></td>
+              <td><input type="radio" id="p1ef15" name="p1ef1" value="5" /></td>
+            </tr>
+            <tr>
+              <td class="coloref">Relevant</td>
+              <td><input type="radio" id="p1ef21" name="p1ef2" value="1" /></td>
+              <td><input type="radio" id="p1ef22" name="p1ef2" value="2" /></td>
+              <td><input type="radio" id="p1ef23" name="p1ef2" value="3" /></td>
+              <td><input type="radio" id="p1ef24" name="p1ef2" value="4" /></td>
+              <td><input type="radio" id="p1ef25" name="p1ef2" value="5" /></td>
+            </tr>
+            <tr>
+              <td class="coloref">Inspiring</td>
+              <td><input type="radio" id="p1ef31" name="p1ef3" value="1" /></td>
+              <td><input type="radio" id="p1ef32" name="p1ef3" value="2" /></td>
+              <td><input type="radio" id="p1ef33" name="p1ef3" value="3" /></td>
+              <td><input type="radio" id="p1ef34" name="p1ef3" value="4" /></td>
+              <td><input type="radio" id="p1ef35" name="p1ef3" value="5" /></td>
+            </tr>
+          </table>
+        </div>
+        <br />
+        <div>
+          <p>Presenter 2</p>
+          <br />
+          <table>
+            <tr class="coloref">
+              <td style="border: none; background: white"></td>
+              <td>Not at all</td>
+              <td>Not really</td>
+              <td>Somewhat</td>
+              <td>Mostly</td>
+              <td>Definitely</td>
+            </tr>
+            <tr>
+              <td class="coloref">Interesting</td>
+              <td><input type="radio" id="p2ef11" name="p2ef1" value="1" /></td>
+              <td><input type="radio" id="p2ef12" name="p2ef1" value="2" /></td>
+              <td><input type="radio" id="p2ef13" name="p2ef1" value="3" /></td>
+              <td><input type="radio" id="p2ef14" name="p2ef1" value="4" /></td>
+              <td><input type="radio" id="p2ef15" name="p2ef1" value="5" /></td>
+            </tr>
+            <tr>
+              <td class="coloref">Relevant</td>
+              <td><input type="radio" id="p2ef21" name="p2ef2" value="1" /></td>
+              <td><input type="radio" id="p2ef22" name="p2ef2" value="2" /></td>
+              <td><input type="radio" id="p2ef23" name="p2ef2" value="3" /></td>
+              <td><input type="radio" id="p2ef24" name="p2ef2" value="4" /></td>
+              <td><input type="radio" id="p2ef25" name="p2ef2" value="5" /></td>
+            </tr>
+            <tr>
+              <td class="coloref">Inspiring</td>
+              <td><input type="radio" id="p2ef31" name="p2ef3" value="1" /></td>
+              <td><input type="radio" id="p2ef32" name="p2ef3" value="2" /></td>
+              <td><input type="radio" id="p2ef33" name="p2ef3" value="3" /></td>
+              <td><input type="radio" id="p2ef34" name="p2ef3" value="4" /></td>
+              <td><input type="radio" id="p2ef35" name="p2ef3" value="5" /></td>
+            </tr>
+          </table>
+        </div>
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <br />
+    <h2>Pizza Order Form</h2>
+    <form action="">
+      <fieldset id="po">
+        <p id="titlepo">Pizza Order Form</p>
+        <br />
+        <p>Menu</p>
+        <br />
+        <div class="itempo">
+          <input type="checkbox" id="pizza1" name="pizzatype" value="1" />
+          <img src="../images/pexels-natasha-filippovskaya-4394612.jpg" alt="pizza1" />
+          <div class="inlinepo ingrepo">
+            <p>Pizza A</p>
+            <p class="despo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <label class="qspo" for="pizza1q">Quantity</label>
+            <select name="pizza1q" id="pizza1q">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <label class="qspo" for="pizza1s">Size</label>
+            <select name="pizza1s" id="pizza1s">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+          </div>
+          <div class="inlinepo pricepo">
+            <div><p>$ 15.00</p></div>
+            <br />
+            <br />
+            <p>Item subtotal: $ 0.00</p>
+          </div>
+        </div>
+        <div class="itempo">
+          <input type="checkbox" id="pizza2" name="pizzatype" value="2" />
+          <img src="../images/pexels-natasha-filippovskaya-4394612.jpg" alt="pizza2" />
+          <div class="inlinepo ingrepo">
+            <p>Pizza B</p>
+            <p class="despo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <label class="qspo" for="pizza2q">Quantity</label>
+            <select name="pizza2q" id="pizza2q">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <label class="qspo" for="pizza2s">Size</label>
+            <select name="pizza2s" id="pizza2s">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+          </div>
+          <div class="inlinepo pricepo">
+            <div><p>$ 15.00</p></div>
+            <br />
+            <br />
+            <p>Item subtotal: $ 0.00</p>
+          </div>
+        </div>
+        <div class="itempo">
+          <input type="checkbox" id="pizza3" name="pizzatype" value="3" />
+          <img src="../images/pexels-natasha-filippovskaya-4394612.jpg" alt="pizza3" />
+          <div class="inlinepo ingrepo">
+            <p>Pizza C</p>
+            <p class="despo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <label class="qspo" for="pizza3q">Quantity</label>
+            <select name="pizza3q" id="pizza3q">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <label class="qspo" for="pizza3s">Size</label>
+            <select name="pizza3s" id="pizza3s">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+          </div>
+          <div class="inlinepo pricepo">
+            <div><p>$ 15.00</p></div>
+            <br />
+            <br />
+            <p>Item subtotal: $ 0.00</p>
+          </div>
+        </div>
+        <p style="position: absolute; right: 14px">Total $0.00</p>
+        <br />
+        <br />
+        <div style="text-align: center">
+          <input class="buttonpo" type="submit" name="checkoutpo" id="checkoutpo" value="Checkout" />
+          <br />
+          <br />
+          <input class="buttonpo" type="submit" name="dbcardpo" id="dbcardpo" value="Debit or Credit Card" />
+        </div>
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </body>
+</html>
