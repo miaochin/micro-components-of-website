@@ -1,0 +1,332 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  vertical-align: top;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h2 {
+  margin: 7px 4px;
+}
+
+#ec,
+#ec a {
+  font-size: 16px;
+  color: whitesmoke;
+}
+
+#ec p {
+  background: #9eadc8;
+  text-align: center;
+  height: 30px;
+}
+
+#ec > div {
+  background: #5b618a;
+  padding: 0px 92px;
+}
+
+#ec #tableec {
+  background: #373c59;
+}
+
+#ec ul {
+  padding: 10px;
+  width: 25%;
+}
+
+#ec li {
+  padding: 3px;
+}
+
+#ec table td {
+  width: 294px;
+  padding: 10px;
+}
+
+#ec table td a {
+  font-size: 14px;
+  color: rgb(184, 180, 180);
+}
+
+.inlinebec {
+  display: inline-block;
+}
+
+.ltitleec {
+  font-weight: bold;
+}
+
+#ec table td div:nth-child(1) {
+  color: whitesmoke;
+}
+
+#ec span {
+  margin: 6px;
+}
+
+#ec a:hover {
+  text-decoration: underline;
+}
+
+#de,
+#de a {
+  background: #e9bf34f3;
+  color: rgba(255, 255, 255, 0.693);
+  font-size: 18px;
+}
+
+#de .titlede,
+#de .titlede a {
+  font-weight: bold;
+  color: white;
+}
+
+#de > ul {
+  width: calc(1240px / 6);
+  padding: 0px 2px;
+}
+
+#de li {
+  margin: 3px 0px;
+}
+
+#de .rightmostde,
+#de .rightmostde a {
+  font-size: 13px;
+}
+
+#de #iconde a {
+  font-size: 30px;
+}
+
+#de #iconde li {
+  margin: 4px;
+}
+
+#de .rightmostde .underlinede {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#de a:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.501);
+}
+
+#de #iconde a:hover {
+  font-size: 31px;
+}
+
+.inlinebde {
+  display: inline-block;
+}
+
+#pbcp,
+#pbcp a {
+  background: #748ec5;
+  font-size: 18px;
+  color: #2b304f;
+}
+
+#tpartpbcp ul,
+#bnavpbcp ul li,
+#rpartpbcp {
+  display: inline-block;
+}
+
+#tpartpbcp {
+  margin: 0px 50px;
+  border-bottom: 1px solid rgb(208, 195, 195);
+}
+
+#bnavpbcp {
+  margin: 0px 50px;
+}
+
+#pbcp #tpartpbcp ul {
+  width: calc(1330px / 6);
+}
+
+#pbcp #logopbcp {
+  font-weight: bold;
+  font-size: 80px;
+  color: #2c3257;
+  padding-left: 10px;
+}
+
+#tpartpbcp li {
+  margin: 8px 2px;
+}
+
+#tpartpbcp ul li:nth-child(1) {
+  color: black;
+}
+
+#pbcp a:hover {
+  color: white;
+}
+
+#bnavpbcp ul li {
+  margin: 0px 10px;
+}
+
+#rpartpbcp {
+  position: absolute;
+  right: 0px;
+}
+
+#bnavpbcp i {
+  padding: 4px;
+  position: relative;
+  bottom: 2px;
+}
+
+#dr,
+#dr a {
+  background: #e4dfda;
+  color: black;
+  font-size: 18px;
+}
+
+#upperdr {
+  margin: 0px 20px;
+  border-bottom: 1px solid black;
+}
+
+#bottomdr {
+  margin: 0px 20px;
+}
+
+#upperdr ul {
+  width: 50%;
+}
+
+#dr #logodr i {
+  width: 50px;
+  height: 50px;
+  margin: 0px 1px;
+  background: black;
+  color: #e4dfda;
+  font-size: 50px;
+  padding-left: 5px;
+}
+
+#dr #nameudr {
+  width: 80px;
+  height: 27px;
+  background: black;
+  margin-bottom: 1px;
+  color: #e4dfda;
+}
+
+#dr #nameudr a {
+  background: black;
+  color: #e4dfda;
+}
+
+#dr #namebdr a {
+  width: 60px;
+  height: 20px;
+  background: black;
+  color: #e4dfda;
+}
+
+#dr .underlinedr a:hover {
+  text-decoration: underline;
+}
+
+#upperdr ul li {
+  padding: 8px 0px;
+}
+
+.inlinebdr {
+  display: inline-block;
+}
+
+#dr #bottomdr ul li {
+  margin: 0px 10px;
+}
+
+#dds {
+  background: whitesmoke;
+  color: rgba(22, 20, 20, 0.693);
+}
+
+#schooldds {
+  color: rgb(126, 17, 17);
+  font-size: 40px;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+#depdds {
+  color: rgb(60, 56, 56);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  position: relative;
+  top: 3px;
+}
+
+#dds #upperdds a {
+  color: rgb(143, 21, 21);
+}
+
+#upperdds,
+#bottomdds {
+  margin: 0px 50px;
+}
+
+#dds #bottomddsback,
+#dds #bottomddsback a {
+  color: white;
+  background: rgb(151, 34, 34);
+}
+
+#upperdds ul {
+  margin-right: 130px;
+  font-size: 20px;
+}
+
+#upperdds ul li {
+  margin: 6px 0px;
+}
+
+.mapdds li i {
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+}
+
+#upperdds .icondds li i {
+  color: black;
+  margin-right: 18px;
+}
+
+.inlinebdds,
+.inlinebddsp li {
+  display: inline-block;
+}
+
+#dds button {
+  position: absolute;
+  right: 0px;
+  background: rgb(116, 26, 26);
+  color: whitesmoke;
+  border: none;
+  font-size: 17px;
+  padding: 12px 20px;
+  border-radius: 20%;
+}
+
+#bottomdds .inlinebddsp li {
+  margin: 5px;
+}
+
+#bottomdds a:hover,
+#upperdds a:hover {
+  text-decoration: underline;
+}
