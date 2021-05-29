@@ -1,0 +1,233 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 10px;
+}
+
+#ppt #titleppt {
+  font-size: 35px;
+}
+
+#ppt {
+  margin: 25px;
+}
+
+#ppt td,
+#ppt th {
+  text-align: center;
+  font-size: 18px;
+  width: 300px;
+  height: 50px;
+}
+
+#ppt .leftppt {
+  text-align: left;
+}
+
+.subtitleppt {
+  color: white;
+}
+
+#ppt .fas {
+  color: rgb(4, 150, 4);
+}
+
+.buttonppt {
+  padding: 2px 20px;
+  border: none;
+  height: 25px;
+  background: rgba(175, 167, 167, 0.823);
+}
+
+#fct table {
+  margin: 25px;
+  display: block;
+  overflow-x: scroll;
+  width: 800px;
+  position: relative;
+}
+
+#fct td,
+#fct th {
+  text-align: left;
+  font-size: 18px;
+  min-width: 200px;
+}
+
+#fct th:nth-child(1),
+#fct td:nth-child(1) {
+  background: rgb(0, 110, 255);
+  color: white;
+  position: sticky;
+  left: 0px;
+  z-index: 3;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgb(184, 181, 181);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+#usert table {
+  border-spacing: 0px;
+  margin: 25px;
+}
+
+#usert th,
+#usert td {
+  margin: 2px;
+  padding: 4px 8px;
+  text-align: center;
+}
+
+#usert img {
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+}
+
+#titleusert {
+  font-size: 40px;
+  background: rgb(155, 208, 70);
+  color: white;
+}
+
+#usert tbody tr:nth-child(2n),
+#usert table > tr:nth-child(2) {
+  background: rgb(205, 218, 186);
+}
+
+#cst table {
+  border-spacing: 0px;
+  margin: 25px;
+  text-align: center;
+  border: 1px solid rgb(192, 185, 185);
+}
+
+#cst thead th {
+  width: 160px;
+  height: 80px;
+}
+
+#cst tfoot td {
+  width: 160px;
+  height: 50px;
+  border: 1px solid rgb(192, 185, 185);
+}
+
+#cst span {
+  padding: 3px;
+}
+
+#cst tbody td {
+  width: 160px;
+  height: 180px;
+  border: 1px solid rgb(192, 185, 185);
+}
+
+#cst tbody td:hover {
+  background: rgb(255, 242, 242);
+}
+
+#cst img {
+  width: 60px;
+  height: 60px;
+  border-radius: 60%;
+}
+
+.timecst {
+  font-size: 12px;
+  color: rgb(216, 155, 165);
+}
+
+#cst a:hover {
+  color: rgb(216, 155, 165);
+}
+
+#st table {
+  border-spacing: 0px;
+  margin: 25px;
+}
+
+#st img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+}
+
+#st thead tr {
+  background: rgb(211, 205, 36);
+  color: white;
+  height: 30px;
+}
+
+#st table td {
+  height: 60px;
+  min-width: 90px;
+  padding: 4px 6px;
+}
+
+#st .iconst {
+  min-width: 35px;
+}
+
+#st button {
+  background: transparent;
+  border: none;
+  color: rgb(220, 82, 82);
+}
+
+#ot table {
+  border-spacing: 0px;
+  margin: 25px;
+}
+
+#ot a {
+  text-decoration: none;
+}
+
+#ot td,
+#ot th {
+  min-width: 200px;
+  font-size: 18px;
+  text-align: left;
+  height: 40px;
+  padding: 4px 20px;
+}
+
+.progressot a {
+  background: rgb(15, 150, 15);
+  font-size: 15px;
+  color: white;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.onholdot a {
+  background: rgb(238, 53, 53);
+  font-size: 15px;
+  color: white;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.openot a {
+  background: orange;
+  font-size: 15px;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+#ot thead tr:nth-child(1),
+#ot tbody tr:nth-child(even) {
+  background: rgb(213, 203, 203);
+}
