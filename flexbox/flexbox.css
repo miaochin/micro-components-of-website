@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+h2 {
+  margin: 8px;
+}
+
+.flex1 {
+  margin: 5px;
+  display: flex;
+}
+
+.flex1 div {
+  flex: 1 200px;
+  margin: 5px;
+  border: 2px solid #b88689;
+  border-radius: 2%;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.flex1 i {
+  font-size: 35px;
+  margin-bottom: 3px;
+}
+
+.flex2 {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex2 div {
+  flex: 350px;
+  min-height: 200px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.flex3 {
+  margin: 5px 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex3 div {
+  flex: 500px;
+  min-height: 400px;
+  margin: 10px;
+}
+
+.flex3 h3 {
+  text-align: center;
+  font-size: 35px;
+  color: #438cdf;
+  position: relative;
+  top: 180px;
+}
+
+.flex4 {
+  display: flex;
+  margin: 5px;
+  flex-wrap: wrap;
+}
+
+.flex4 > div > div:nth-of-type(1) {
+  height: 15px;
+}
+
+.flex4 > div {
+  border-radius: 3%;
+  flex: 350px;
+  min-height: 150px;
+  margin: 5px;
+}
+
+.flex4 > div > div:nth-of-type(2) {
+  margin: 3px 25px;
+}
+
+.flex4 i {
+  margin-left: 6px;
+}
+
+.flex4 a {
+  text-decoration: none;
+}
+
+.flex4 h3 {
+  margin: 5px 0px;
+}
+
+.flex4 p {
+  margin: 5px 0px;
+  font-size: 14px;
+  color: rgb(177, 172, 172);
+}
+
+.flex5 {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex5 > div {
+  flex: 1 200px;
+  margin: 8px;
+  position: relative;
+}
+
+.flex5 > div:nth-of-type(2) {
+  flex: 2 200px;
+}
+
+.flex5 a {
+  position: absolute;
+  bottom: 0px;
+  text-decoration: none;
+  color: #157145;
+}
